@@ -22,11 +22,14 @@ Other extensions can be supplied; the default is .adb for the input file (first 
 
 Links (some might need to be looked up via [archive.org](archive.org))
 -----
-* [Ada Mindstorms](http://www.usafa.af.mil/df/dfcs/adamindstorms.cfm)
-* [Ada Mindstorms Manual](http://www.usafa.edu/df/dfcs/ada_Mindstorms_manual.cfm)
-* [AdaGIDE Home Page](http://adagide.martincarlisle.com/)
-* [AdaMindstorms Manual](http://www.citidel.org/bitstream/10117/145/7/Ada_Mindstorms_manual.htm)
 * [An Ada Interface to Lego Mindstorms](http://www.faginfamily.net/barry/Papers/AdaLetters.htm)
+  + [Published ACM Paper](https://dl.acm.org/doi/10.1145/362076.362081)
+  + [Ada Mindstorms](https://web.archive.org/web/20080523112917/http://www.usafa.af.mil/df/dfcs/adamindstorms.cfm)
+  + [User Guide and Manual 1.0](https://dl.acm.org/doi/10.1145/362076.569071)
+  + [Installation Instructions](https://web.archive.org/web/20080526011436/http://www.usafa.af.mil/df/dfcs/adamindstorms1.cfm)
+  + [Link to author’s publications page](http://www.faginfamily.net/barry/#Publications)
+  + [Manual](http://www.usafa.edu/df/dfcs/ada_Mindstorms_manual.cfm)
+  + [AdaMindstorms Manual](http://www.citidel.org/bitstream/10117/145/7/Ada_Mindstorms_manual.htm)
+* [AdaGIDE Home Page](http://adagide.martincarlisle.com/)
 * [Successfully Build an Ada Compiler in Arch](http://wiki.archlinux.org/index.php/Successfully_Build_an_Ada_Compiler_in_Arch)
 * [The GNU Ada Compiler](http://gnuada.sourceforge.net/)
-
