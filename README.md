@@ -1,5 +1,12 @@
 These files are the source code for Ada/MindStorms 2.0, the most important part of which is ada2nqc, an Ada to NQC translator.  NQC is the "Not Quite C" language for Lego MindStorms developed by Dave Baum (http://www.enteract.com/~dbaum/nqc).
 
+> [!IMPORTANT]
+> Prerequisites (c.f. the archived [installation guide](https://web.archive.org/web/20080526011436/http://www.usafa.af.mil/df/dfcs/adamindstorms1.cfm)):
+> * GNU Ada Translator (GNAT)
+> * AdaGIDE (a GUI frontend to GNAT)
+>
+> Both GNAT and AdaGIDE are available at the [AdaGIDE Home Page](http://adagide.martincarlisle.com/).
+
 ada2nqc.adb is the top level file in the make tree.  If you have AdaGIDE, building ada2nqc will automatically construct the translator executable ada2nqc.exe.  Other important files are:
 
 * **lego.adb, lego.ads**:  	the Ada/Mindstorms API
