@@ -1,12 +1,10 @@
+Ada/MindStorms
+==============
 These files are the source code for Ada/MindStorms 2.0, the most important part of which is ada2nqc, an Ada to NQC translator.  NQC is the "Not Quite C" language for Lego MindStorms developed by Dave Baum (http://www.enteract.com/~dbaum/nqc).
 
-> [!IMPORTANT]
-> Prerequisites (c.f. the archived [installation guide](https://web.archive.org/web/20080526011436/http://www.usafa.af.mil/df/dfcs/adamindstorms1.cfm)):
-> * GNU Ada Translator (GNAT)
-> * AdaGIDE (a GUI frontend to GNAT)
->
-> Both GNAT and AdaGIDE are available at the [AdaGIDE Home Page](http://adagide.martincarlisle.com/).
 
+Project Details
+---------------
 ada2nqc.adb is the top level file in the make tree.  If you have AdaGIDE, building ada2nqc will automatically construct the translator executable ada2nqc.exe.  Other important files are:
 
 * **lego.adb, lego.ads**:  	the Ada/Mindstorms API
@@ -16,7 +14,10 @@ ada2nqc.adb is the top level file in the make tree.  If you have AdaGIDE, buildi
 
 If you are making changes to the translator and/or adding functionality, you should never need to change anything apart from lego.adb, lego.ads, trans_model.adb, and possibly ada2nqc.adb if you are adding new command line arguments or options.
 
-USAGE:  from a DOS prompt,
+
+Usage
+-----
+From a command prompt,
 
 	ada2nqc foo
 		Translates foo.adb in the current directory to foo.nqc in the current directory
@@ -25,6 +26,15 @@ USAGE:  from a DOS prompt,
 		Translates foo.adb in the current directory to bar.nqc in the current directory
 
 Other extensions can be supplied; the default is .adb for the input file (first argument) and .nqc for the output file (second argument).
+
+
+Prerequisites
+-------------
+From the archived [installation guide](https://web.archive.org/web/20080526011436/http://www.usafa.af.mil/df/dfcs/adamindstorms1.cfm), Ada/MindStorms works best with the following:
+* GNU Ada Translator (GNAT)
+* AdaGIDE (a GUI frontend to GNAT)
+
+Both GNAT and AdaGIDE are available at the [AdaGIDE Home Page](http://adagide.martincarlisle.com/).
 
 
 Links (some might need to be looked up via [archive.org](archive.org))
